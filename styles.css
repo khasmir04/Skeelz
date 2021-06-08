@@ -1,0 +1,254 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  -moz-font-feature-settings: "liga" on;
+  font-family: "Lato", sans-serif;
+  background: #2d2d2d;
+  color: #cccccc;
+  font-size: 1.2em;
+  font-weight: 400;
+}
+
+ul {
+  padding-left: 40px;
+}
+
+a {
+  color: #cccccc;
+  text-decoration: none;
+}
+a:hover {
+  color: #2196f3;
+  text-decoration: underline;
+}
+
+.page-container {
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+  background-image: url(https://www.toptal.com/designers/subtlepatterns/patterns/hexabump.png);
+  background-size: 500px 500px;
+}
+
+.m-wrapper {
+  padding: 0 10px;
+  width: 100%;
+  max-width: 1260px;
+  margin: auto;
+}
+@media only screen and (min-width: 600px) and (max-width: 1260px) {
+  .m-wrapper {
+    max-width: 840px;
+    margin: auto;
+  }
+}
+@media only screen and (min-width: 1700px) {
+  .m-wrapper {
+    max-width: 1680px;
+    margin: auto;
+  }
+}
+
+.m-header {
+  padding: 50px 0 20px;
+}
+
+.m-title {
+  font-size: 3em;
+  font-weight: 900;
+  letter-spacing: -0.03em;
+}
+
+.m-title-roles ul {
+  display: flex;
+  justify-content: left;
+  font-weight: 900;
+  letter-spacing: -0.025em;
+  margin: 0;
+  padding: 0;
+  margin-left: 2px;
+  list-style-type: none;
+}
+.m-title-roles ul li {
+  margin-right: 5px;
+}
+.m-title-section {
+  margin: 30px 0 0;
+}
+.m-title-section h2 {
+  font-size: 2em;
+  font-weight: 300;
+  letter-spacing: -0.025em;
+  border-left: 2px solid #cccccc;
+  padding-left: 10px;
+  margin: 0;
+}
+@media only screen and (min-width: 600px) {
+  .m-title-section h2 {
+    padding-left: 20px;
+  }
+}
+
+.m-roles-list {
+  font-weight: 900;
+  letter-spacing: -0.025em;
+  margin-top: 0;
+  list-style-type: none;
+  padding-left: 20px;
+}
+@media only screen and (min-width: 450px) {
+  .m-roles-list {
+    list-style-type: disc;
+    padding-left: 40px;
+  }
+}
+
+.m-role-0 {
+  color: #cccccc;
+}
+
+.m-role-1 {
+  color: #ffcc66;
+}
+
+.m-role-2 {
+  color: #6699cc;
+}
+
+.m-role-3 {
+  color: #f2777a;
+}
+
+.flex-row {
+  margin: auto;
+  width: 100%;
+  max-width: 1260px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+@media only screen and (min-width: 1275px) {
+  .flex-row {
+    justify-content: space-between;
+  }
+}
+@media only screen and (min-width: 1700px) {
+  .flex-row {
+    max-width: 1680px;
+  }
+}
+
+.m-chart {
+  font-family: "Lato", sans-serif;
+  box-shadow: -1px 1px 5px rgba(0, 0, 0, 0.6);
+  margin: 20px 10px 0;
+  background: #323232;
+  background: rgba(50, 50, 50, 0.8);
+}
+.m-chart h3 {
+  text-align: center;
+  font-size: 1.6em;
+  letter-spacing: -0.04em;
+  margin: -10px 0 40px;
+}
+@media only screen and (min-width: 450px) {
+  .m-chart h3 {
+    font-size: 2em;
+    margin: -40px 0 40px;
+  }
+}
+
+.chart-wrapper-outter {
+  margin: auto;
+  width: 300px;
+  height: 300px;
+  display: flex;
+}
+@media only screen and (min-width: 380px) {
+  .chart-wrapper-outter {
+    width: 350px;
+    height: 350px;
+  }
+}
+@media only screen and (min-width: 450px) {
+  .chart-wrapper-outter {
+    min-width: 400px;
+    min-height: 400px;
+  }
+}
+
+.chart-wrapper-inner {
+  margin: auto;
+  width: 250px;
+}
+@media only screen and (min-width: 380px) {
+  .chart-wrapper-inner {
+    width: 265px;
+  }
+}
+@media only screen and (min-width: 450px) {
+  .chart-wrapper-inner {
+    width: 275px;
+  }
+}
+
+.m-footer {
+  margin-top: 30px;
+  padding-top: 20px;
+}
+.m-footer .m-title {
+  margin-bottom: 10px;
+  font-size: 2em;
+  width: 100%;
+}
+
+.m-contact-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  justify-content: left;
+}
+.m-contact-container .m-address-line3 {
+  margin-bottom: 10px;
+}
+
+.m-contact-wrapper {
+  line-height: 1.25em;
+  list-style-type: none;
+  margin: 0 30px 0 0;
+  padding-left: 0;
+  width: 300px;
+  font-size: 0.8em;
+}
+@media only screen and (min-width: 350px) {
+  .m-contact-wrapper {
+    font-size: 0.9em;
+  }
+}
+.m-contact-wrapper li {
+  margin-bottom: 5px;
+}
+
+.m-copyright {
+  font-size: 0.7em;
+  font-weight: 300;
+  border-top: 1px solid rgba(204, 204, 204, 0.5);
+  margin-top: 30px;
+  padding: 10px 0 20px;
+}
+.m-copyright p {
+  text-align: center;
+  margin: 0;
+}
+@media only screen and (min-width: 450px) {
+  .m-copyright p {
+    text-align: right;
+  }
+}
